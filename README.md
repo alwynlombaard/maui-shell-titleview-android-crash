@@ -2,6 +2,9 @@
 
 This project demonstrates the issue of a maui app crashing on Android with a `Shell.TitleView` when navigating back to it
 
+https://github.com/dotnet/maui/issues/4506
+
+
 ```
 02-04 08:55:10.322  8890  8890 I MonoDroid: UNHANDLED EXCEPTION:
 02-04 08:55:10.348  8890  8890 I MonoDroid: Java.Lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.
