@@ -1,0 +1,22 @@
+﻿<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:titleviewtestapp"
+    x:Class="titleviewtestapp.AppShell"
+    x:Name="shell"
+    BackgroundColor="White">
+
+<FlyoutItem Title="MainPageGroup" 
+                Route="MainPageGroup"
+                FlyoutItemIsVisible="False">
+        <ShellContent Route="MainPage" 
+                      Title="MainPage"
+                      ContentTemplate="{DataTemplate local:MainPage}">
+        </ShellContent>
+
+        <ShellContent Route="SecondaryPage"
+                    Title="SecondaryPage"
+                    ContentTemplate="{DataTemplate local:SecondaryPage}">
+        </ShellContent>
+    </FlyoutItem>
+
+</Shell>
